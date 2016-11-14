@@ -1,0 +1,9 @@
+p, dd, li, td
+{
+	max-width: 15cm !important;
+}
+
+td
+{
+	padding: 0.5em !important;
+}

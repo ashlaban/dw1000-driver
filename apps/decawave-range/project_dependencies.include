@@ -1,0 +1,19 @@
+# Contains all root directories for external dependencies.
+# This simplifies shared development. You should enter data here specific to 
+# you set-up. You should not commit any changes to this file. You can make sure
+# git will skip this file by running:
+#
+#     git update-index --assume-unchanged ./project_dependencies.include
+#
+# It is assumed that your current director is the same as the one that this 
+# file is located in.
+#
+# Example content:
+#     CONTIKI=/home/ashlaban/contiki
+#     DRIVER=/home/ashlaban/Decawave-Driver
+#
+
+# The path to the contiki root
+CONTIKI=
+# The path to the Decawave-Driver root
+DRIVER=
