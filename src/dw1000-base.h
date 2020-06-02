@@ -303,9 +303,9 @@
 #define DW_RNSSFD        21         /**< \brief dummy */
 #define DW_RNSSFD_MASK   (1<<21)    /**< \brief dummy */
 #define DW_TX_PCODE      22         /**< \brief dummy */
-#define DW_TX_PCODE_MASK (0x3F<<22) /**< \brief dummy */
+#define DW_TX_PCODE_MASK (0x1F<<22) /**< \brief dummy */
 #define DW_RX_PCODE      27         /**< \brief dummy */
-#define DW_RX_PCODE_MASK (0x3F<<27) /**< \brief dummy */
+#define DW_RX_PCODE_MASK (0x1F<<27) /**< \brief dummy */
 
 /* DW_REG_TX_CAL 0x2A */
 /* DW_SUBREG_SARC 0x2A:00 */
