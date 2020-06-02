@@ -291,9 +291,9 @@
 
 /* DW_REG_CHAN_CTRL 0x1F */
 #define DW_TXCHAN        0          /**< \brief dummy */
-#define DW_TXCHAN_MASK   (0x1F<<0)  /**< \brief dummy */
-#define DW_RXCHAN        5          /**< \brief dummy */
-#define DW_RXCHAN_MASK   (0x1F<<5)  /**< \brief dummy */
+#define DW_TXCHAN_MASK   (0x0F<<0)  /**< \brief dummy */
+#define DW_RXCHAN        4          /**< \brief dummy */
+#define DW_RXCHAN_MASK   (0x0F<<4)  /**< \brief dummy */
 #define DW_DWSFD         17         /**< \brief dummy */
 #define DW_DWSFD_MASK    (1<<17)    /**< \brief dummy */
 #define DW_RXPRFR        18         /**< \brief dummy */
